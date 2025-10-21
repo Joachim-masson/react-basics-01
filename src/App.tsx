@@ -16,6 +16,21 @@ const pokemonList = [
 		imgSrc:
 			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/026.png",
 	},
+	{
+		name: "charmander",
+		imgSrc:
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+	},
+	{
+		name: "squirtle",
+		imgSrc:
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+	},
+	{
+		name: "pikachu",
+		imgSrc:
+			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+	},
 ];
 
 function App() {
@@ -28,15 +43,17 @@ function App() {
 
 	return (
 		<div>
-			<button type="button" onClick={() => setPokemonName("bulbasaur")}>
-				Bulbasaur
-			</button>
-			<button type="button" onClick={() => setPokemonName("mew")}>
-				Mew
-			</button>
-			<button type="button" onClick={() => setPokemonName("Raichu")}>
-				Raichu
-			</button>
+			<nav>
+				{pokemonList.map((element) => (
+					<button
+						type="button"
+						key={element.name}
+						onClick={() => setPokemonName(element.name)}
+					>
+						{element.name}
+					</button>
+				))}
+			</nav>
 			<PokemonCard pokemon={pokemon} />
 		</div>
 	);
