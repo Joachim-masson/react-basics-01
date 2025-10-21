@@ -11,6 +11,11 @@ const pokemonList = [
 	{
 		name: "mew",
 	},
+	{
+		name: "Raichu",
+		imgSrc:
+			"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/026.png",
+	},
 ];
 
 function App() {
