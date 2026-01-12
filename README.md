@@ -1,3 +1,72 @@
+# React - Bascis - 01
+quest to learn about React components - Wide Code School
+
+
+## Tech Stack
+
+**Client:** React + Vite, TypeScript, CSS
+
+**Server:** None
+
+**Other:** Biome
+
+
+## Acknowledgements
+
+ - Creation of components
+ - use of rendering
+- transmission of props
+- ternary operator
+- use of useState
+- message via the browser window
+- table method
+- typing
+
+
+## Features
+
+- Pokemon selection bar
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Joachim-masson/react-basics-01.git
+```
+
+Go to the project directory
+
+```bash
+  cd react-basics-01
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Appendix
+
+
+
+This project is not intended for deployment. It is an exercise within the framework of my DWWM training.
+
+## Extra notes
+
+There are different branches, each corresponding to a specific part of the exercise. The "events.1" branch is the most complete.
+
+
+## Authors
+Wide Code School  
+Joachim MASSON
+
+# Original ReadMe from Wide Code School #
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
