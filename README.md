@@ -63,7 +63,8 @@ There are different branches, each corresponding to a specific part of the exerc
 
 
 ## Authors
-
+Wide Code School
+Joachim MASSON
 
 # Original ReadMe from Wide Code School #
 
