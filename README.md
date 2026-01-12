@@ -57,13 +57,15 @@ Start the server
 
 This project is not intended for deployment. It is an exercise within the framework of my DWWM training.
 
+## Extra notes
+
+There are different branches, each corresponding to a specific part of the exercise. The "events.1" branch is the most complete.
+
 
 ## Authors
 
-- Wide Code School
-- Joachim MASSON
 
-** Original ReadMe from Wide Code School **
+# Original ReadMe from Wide Code School #
 
 
 # React + TypeScript + Vite
